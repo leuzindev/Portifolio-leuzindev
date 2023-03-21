@@ -42,3 +42,22 @@ export const SeeMore = styled.a`
     font-weight: 600;
     cursor: pointer;
 `
+
+export const Footer = styled.div`
+  background-color: white;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`
+
+
+export const InfoFooter = styled.p`
+  margin-bottom: 10px;
+`
+
+export const Sub = styled.span`
+  text-decoration: underline
+`

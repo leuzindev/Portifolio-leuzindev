@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Image from "next/image";
 
 export const ContainerRepositorys = styled.div`
-  height: 45%;
+  height: 60%;
   width: 100%;
 `;
 

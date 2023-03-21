@@ -18,6 +18,7 @@ import {
 import icoPython from "/public/images/icoPython.png";
 import icoReact from "/public/images/icoReact.png";
 import icoDocker from "/public/images/icoDocker.png";
+import { Footer } from "../Footer/Footer";
 
 
 export function Repository() {
@@ -132,6 +133,7 @@ export function Repository() {
       <GithubBar>
         
       </GithubBar>
+     
     </ContainerRepositorys>
   );
 }
