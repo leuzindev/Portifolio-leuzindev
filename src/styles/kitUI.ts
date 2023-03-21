@@ -11,7 +11,34 @@ export const Tela = styled.div`
 
 `;
 
+export const TelaSecond = styled.div`
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #145277, #83D0CB);
+
+`;
+
 export const Container = styled.div`
   height: 100%;
   width: 80%;
 `;
+
+
+export const LineWhite = styled.hr`
+  color: white;
+`
+
+export const Titles = styled.h1`
+    color: white;
+    font-weight: bold;
+`
+
+export const SeeMore = styled.a`
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+`

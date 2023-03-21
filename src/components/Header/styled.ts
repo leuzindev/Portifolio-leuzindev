@@ -12,7 +12,7 @@ export const ContainerHead = styled.div`
 `
 
 export const AreaLinks = styled.div`
-
+    
     width: 35%;
     height: 45%;
     display: flex;
