@@ -10,7 +10,7 @@ export function Header(){
         <ContainerHead>
             <Link href="/"><Image src={logo} alt="logo"/></Link>
             <AreaLinks>
-                <Links>Home</Links>
+                <Links href="/">Home</Links>
                 <Links>Habilidades</Links>
                 <Links>Projetos</Links>
                 <Links>Repositorios</Links>

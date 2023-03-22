@@ -1,20 +1,18 @@
 import { FooterContent } from "@/components/FooterContent/FooterContent";
 import { Header } from "@/components/Header/Header";
-import { Container, Footer, InfoFooter, Sub, Tela } from "@/styles/kitUI";
+import { RepoContent } from "@/components/RepoContent/RepoContent";
+import { Container, Footer, InfoFooter, Sub, Tela, TelaSecond } from "@/styles/kitUI";
 
 export default function Repositorys() {
   return (
     <Tela>
       <Container>
         <Header />
+        <RepoContent />
+
+
       </Container>
-        <Footer>
-          <FooterContent />
-          <InfoFooter>
-            Desenvolvido utilizando <Sub>NextsJs</Sub>, <Sub>Typescript</Sub>,{" "}
-            <Sub>Vercel</Sub> entre outras tecnologias.
-          </InfoFooter>
-        </Footer>
+        
     </Tela>
   );
 }
