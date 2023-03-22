@@ -21,7 +21,7 @@ export const AreaRespositorys = styled.div`
   justify-content: space-around;
 `;
 
-export const RepositoryContainer = styled.div`
+export const RepositoryContainer = styled.a`
   background-color: #0e5464;
   height: 90%;
   width: 32%;
@@ -77,3 +77,8 @@ export const GithubBar = styled.div`
   background-color: grey;
   height: 50%;
 `;
+
+export const InfoStars = styled.span`
+  font-weight: bold;
+  color: white;
+`

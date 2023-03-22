@@ -12,24 +12,24 @@ export function Social(){
     return(
         <ContainerSocial>
             <AreaImgLabel>
-                <SocialIcons src={github} alt="Github logo"/>
-                <LabelSocial>Github</LabelSocial>
+                <SocialIcons src={github} alt="Github logo" />
+                <LabelSocial href="https://github.com/leuzindev">Github</LabelSocial>
             </AreaImgLabel>
             <AreaImgLabel>
                 <SocialIcons src={discord} alt="Discord Logo"/>
-                <LabelSocial>Discord</LabelSocial>
+                <LabelSocial href="#">Discord</LabelSocial>
             </AreaImgLabel>
             <AreaImgLabel>
                 <SocialIcons src={instagram} alt="Instagram Logo"/>
-                <LabelSocial>Instagram</LabelSocial>
+                <LabelSocial href="https://www.instagram.com/leuzin._/">Instagram</LabelSocial>
             </AreaImgLabel>
             <AreaImgLabel>
                 <SocialIcons src={twitter} alt="Twitter Logo"/>
-                <LabelSocial>Twitter</LabelSocial>
+                <LabelSocial href="#">Twitter</LabelSocial>
             </AreaImgLabel>
             <AreaImgLabel>
                 <SocialIcons src={linkedin} alt="Linkedin Logo"/>
-                <LabelSocial>Linkedin</LabelSocial>
+                <LabelSocial href="https://www.linkedin.com/in/leonardodevs/">Linkedin</LabelSocial>
             </AreaImgLabel>
            
         </ContainerSocial>

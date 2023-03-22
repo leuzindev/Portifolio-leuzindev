@@ -1,3 +1,4 @@
+import { calculaIdade } from "@/utils/idade";
 import { AreaAboutMeContainer, AreaCV, AreaSub, AreaTitle, 
     ButtonCv, 
     LeftCard, MeImage, RightCard, Subtitle, SubtitleColor, 
@@ -5,6 +6,9 @@ import { AreaAboutMeContainer, AreaCV, AreaSub, AreaTitle,
 
 
 import me from '/public/images/me.png'
+
+const minhaDataNascimento = '2003-04-08';
+
 export function AboutMe() {
 
     return(
@@ -16,7 +20,7 @@ export function AboutMe() {
                     <TitleMe>Sou <TitleMeColor>Leonardo Cunha Soares</TitleMeColor></TitleMe>  
                 </AreaTitle>
                 <AreaSub>
-                    <Subtitle>Tenho 20 anos, estudante de <SubtitleColor>Analise e desenvolvimento de Sistemas</SubtitleColor> e procuro</Subtitle>
+                    <Subtitle>Tenho {calculaIdade(minhaDataNascimento)} anos, estudante de <SubtitleColor>Analise e desenvolvimento de Sistemas</SubtitleColor> e procuro</Subtitle>
                     <Subtitle>sempre aprender algo novo. Comecei na computação as 17 anos e ao longo da</Subtitle>
                     <Subtitle>minha jornada criei alguns projetos e adquiri um conhecimento que acredito que </Subtitle>
                     <Subtitle>deve ser compartilhado com outros.</Subtitle>
