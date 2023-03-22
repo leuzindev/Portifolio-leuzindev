@@ -6,8 +6,8 @@ export const ContainerProjects = styled.div`
     margin-bottom: 20px;
     height: 43%;
     @media screen and (max-width: 1550px) {
-      
-     
+        max-height: 40%;
+    
         
     }
 `
@@ -30,8 +30,8 @@ export const AreaProjects = styled.div`
     justify-content: space-between;
     align-items: center;
     @media screen and (max-width: 1550px) {
-        background-color: red;
-        
+      
+        height: 100%;
     }
    
 `

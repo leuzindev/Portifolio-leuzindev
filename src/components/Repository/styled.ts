@@ -5,8 +5,8 @@ export const ContainerRepositorys = styled.div`
   height: 60%;
   width: 100%;
   @media screen and (max-width: 1550px) {
-        
-        height: 100%;
+        max-height: 50%;
+        background-color: red;
     }
 `;
 
@@ -15,6 +15,10 @@ export const AreaTitleRepository = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 15%;
+  @media screen and (max-width: 1550px) {
+ 
+    }
+  
 `;
 
 export const AreaRespositorys = styled.div`
@@ -23,6 +27,10 @@ export const AreaRespositorys = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  @media screen and (max-width: 1550px) {
+      
+        height: 70%;
+    }
 `;
 
 export const RepositoryContainer = styled.a`
@@ -36,6 +44,11 @@ export const RepositoryRow = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  @media screen and (max-width: 1550px) {
+        
+        height: 50%;
+        
+    }
 `;
 
 export const RepositoryWhite = styled.div`

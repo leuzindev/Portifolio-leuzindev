@@ -18,7 +18,9 @@ export const AreaImgLabel = styled.div`
     width: 8%;
     height: 30%;
     cursor: pointer;
-   
+    @media screen and (max-width: 1550px) {
+        width: 10%;
+    }
 `
 
 

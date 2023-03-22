@@ -8,7 +8,10 @@ export const Tela = styled.div`
   align-items: center;
   flex-direction: column;
   background: linear-gradient(to right, #145277, #83D0CB);
- 
+  @media screen and (max-width: 1550px) {
+        height: 100vh;
+        
+    }
 
 `;
 
@@ -60,6 +63,9 @@ export const Footer = styled.div`
 
 export const InfoFooter = styled.p`
   margin-bottom: 10px;
+  @media screen and (max-width: 1550px) {
+    font-size: 13px;
+  }
 `
 
 export const Sub = styled.span`
