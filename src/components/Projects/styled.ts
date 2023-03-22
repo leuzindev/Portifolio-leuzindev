@@ -5,6 +5,11 @@ import Image from "next/image";
 export const ContainerProjects = styled.div`
     margin-bottom: 20px;
     height: 43%;
+    @media screen and (max-width: 1550px) {
+      
+     
+        
+    }
 `
 
 
@@ -14,12 +19,20 @@ export const TitleSeeMore = styled.div`
    display: flex;
    align-items: flex-end;
    justify-content: space-between;
+   @media screen and (max-width: 1550px) {
+        height: 20%;
+        
+    }
 `
 export const AreaProjects = styled.div`
     height: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 1550px) {
+        background-color: red;
+        
+    }
    
 `
 

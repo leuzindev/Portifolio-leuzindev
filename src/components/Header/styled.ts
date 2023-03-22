@@ -8,6 +8,9 @@ export const ContainerHead = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    @media screen and (max-width: 1550px) {
+       height: 12%;
+    }
 
 `
 
@@ -18,6 +21,11 @@ export const AreaLinks = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    @media screen and (max-width: 1550px) {
+        
+        width: 50%;
+       
+    }
 `
 
 export const Links = styled.a`
@@ -29,6 +37,9 @@ export const Links = styled.a`
     transition: 1s all;
     &:hover{
         color: #0E5464;
+    }
+    @media screen and (max-width: 1550px) {
+       font-size: 15px;
     }
 `
 export const LinkButton = styled(Links)`

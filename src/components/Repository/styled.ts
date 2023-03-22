@@ -4,6 +4,10 @@ import Image from "next/image";
 export const ContainerRepositorys = styled.div`
   height: 60%;
   width: 100%;
+  @media screen and (max-width: 1550px) {
+        
+        height: 100%;
+    }
 `;
 
 export const AreaTitleRepository = styled.div`

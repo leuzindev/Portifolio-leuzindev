@@ -12,7 +12,11 @@ export const AreaAboutMeContainer = styled.div`
 export const LeftCard = styled.div`
     width: 50%;
     height: 40%;
-  
+    @media screen and (max-width: 1550px) {
+       height: 50%;
+        
+        width: 60%;
+  }
     
 
 `
@@ -23,7 +27,12 @@ export const RightCard = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-
+    @media screen and (max-width: 1550px) {
+       
+     
+     
+ }
+  
 
 `
 
@@ -32,6 +41,11 @@ export const MeImage = styled(Image)`
     width: 100%;
     height: 100%;
     object-fit: contain;
+    @media screen and (max-width: 1550px) {
+       
+        height: 150%;
+      
+  }
 
 `
 
@@ -41,19 +55,27 @@ export const AreaTitle = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    
 `
 
 export const AreaSub = styled.div`
-
+     
     height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media screen and (max-width: 1550px) {
+       height: 60%;
+  }
 `
 
 export const TitleMe = styled.h1`
     color: white;
     font-weight: bold;
+    @media screen and (max-width: 1550px) {
+        
+        font-size: 30px;
+  }
 
 `
 
@@ -83,6 +105,13 @@ export const AreaCV = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    @media screen and (max-width: 1550px) {
+       
+    
+       width: 93%;
+     
+ }
+    
 `
 export const ButtonCv = styled.a`
     border: none;
@@ -98,4 +127,10 @@ export const ButtonCv = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 1550px) {
+       
+       height: 80%;
+       width: 130px;
+     
+ }
 `

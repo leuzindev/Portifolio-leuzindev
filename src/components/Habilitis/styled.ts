@@ -8,7 +8,10 @@ export const ContainerTotal = styled.div`
     flex-direction: column;
 
     justify-content: center;
-    
+    @media screen and (max-width: 1550px) {
+       
+       height: 70%;
+    }
 `
 
 export const AreaTitle = styled.div`
@@ -28,6 +31,10 @@ export const ContainerHabilitis = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    @media screen and (max-width: 1550px) {
+       height:  80%;
+    }
+    
 `
 export const ContentHabilitis = styled.div`
     
@@ -37,12 +44,18 @@ export const ContentHabilitis = styled.div`
      display: flex;
      justify-content: space-between;
      align-items: center;
+     @media screen and (max-width: 1550px) {
+       height: 50%;
+    }
+     
 `
 
 export const HabilitisArea = styled.div`
+
     background-color: #0E5464;
     width: 32%;
     height: 100%;
+    
 `
 
 export const AreaTitleImg = styled.div`
@@ -51,6 +64,9 @@ export const AreaTitleImg = styled.div`
     display: flex;
     align-items: center;
     margin-left: 20px;
+    @media screen and (max-width: 1550px) {
+        height: 40%;
+    }
 `
 export const TechImg = styled(Image)`
 
@@ -67,6 +83,9 @@ export const AreaTitleTech = styled.div`
 export const TitleTech = styled.h1`
     color: white;
     font-size: 20px;
+    @media screen and (max-width: 1550px) {
+       font-size: 18px;
+    }
 `
 
 export const AreaSubTech = styled.div`
@@ -82,5 +101,8 @@ export const SubTitleTech = styled.p`
     color: white;
     font-size: 19px;
     font-weight: 400;
+    @media screen and (max-width: 1550px) {
+       font-size: 16px;
+    }
 `
 
