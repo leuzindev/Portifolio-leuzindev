@@ -29,7 +29,9 @@ export const RightCard = styled.div`
 
 export const MeImage = styled(Image)`
     border-radius: 5px;
-    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 
 `
 
@@ -82,7 +84,7 @@ export const AreaCV = styled.div`
     justify-content: flex-end;
     align-items: center;
 `
-export const ButtonCv = styled.button`
+export const ButtonCv = styled.a`
     border: none;
     outline: none;
     color: white;
@@ -93,4 +95,7 @@ export const ButtonCv = styled.button`
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `

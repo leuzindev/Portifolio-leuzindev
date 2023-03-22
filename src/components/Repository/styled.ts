@@ -81,4 +81,5 @@ export const GithubBar = styled.div`
 export const InfoStars = styled.span`
   font-weight: bold;
   color: white;
+ 
 `

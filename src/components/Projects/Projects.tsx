@@ -24,7 +24,7 @@ export function Projects() {
     <ContainerProjects>
       <TitleSeeMore>
         <Titles>Projetos</Titles>
-        <SeeMore>Ver mais</SeeMore>
+        <SeeMore href="/projetos">Ver mais</SeeMore>
       </TitleSeeMore>
       <AreaProjects>
         <Project>

@@ -4,10 +4,12 @@ import { AreaAboutMeContainer, AreaCV, AreaSub, AreaTitle,
     LeftCard, MeImage, RightCard, Subtitle, SubtitleColor, 
     TitleMe, TitleMeColor } from "./styled";
 
-
-import me from '/public/images/me.png'
+import Link from 'next/link';
+import me from '/public/images/me_cold.png'
 
 const minhaDataNascimento = '2003-04-08';
+
+
 
 export function AboutMe() {
 
@@ -28,7 +30,8 @@ export function AboutMe() {
                     <Subtitle>ReactNative entre outras linguagens e frameworks. Espero que goste</Subtitle>
                 </AreaSub>     
                 <AreaCV>
-                    <ButtonCv>View CV</ButtonCv>
+                    <ButtonCv  href="https://files.smallpdf.com/files/f192f1e5f6496f84fc508d6e61c2ae17.pdf?name=Cv_leonardo.pdf">View CV</ButtonCv>
+                    
                 </AreaCV>             
             </LeftCard>
             <RightCard>

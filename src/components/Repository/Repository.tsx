@@ -59,7 +59,7 @@ export function Repository() {
     <ContainerRepositorys>
       <AreaTitleRepository>
         <Titles>Repositórios</Titles>
-        <SeeMore>Ver mais</SeeMore>
+        <SeeMore href="/repositorys">Ver mais</SeeMore>
       </AreaTitleRepository>
       <AreaRespositorys>
         <RepositoryRow>
