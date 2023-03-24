@@ -15,7 +15,7 @@ export function AboutMe() {
 
     return(
 
-        <AreaAboutMeContainer>
+        <AreaAboutMeContainer data-aos="fade-up">
             <LeftCard>
                 <AreaTitle>
                     <TitleMe>Olá, tudo bem?!</TitleMe>
@@ -34,7 +34,7 @@ export function AboutMe() {
                     
                 </AreaCV>             
             </LeftCard>
-            <RightCard>
+            <RightCard >
                 <MeImage src={me} alt="Minha foto"/>
             </RightCard>
         </AreaAboutMeContainer>

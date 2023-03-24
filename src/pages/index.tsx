@@ -7,14 +7,23 @@ import { Projects } from "@/components/Projects/Projects";
 import { Repository } from "@/components/Repository/Repository";
 import styled from "styled-components";
 import { FooterContent } from "@/components/FooterContent/FooterContent";
+import { useEffect } from "react";
 
+import Aos from 'aos'
 
-
-
+import 'aos/dist/aos.css'
+import { BackgroundTech } from "@/components/BackgroundTech";
 
 export default function Home() {
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+
+  },[])
+
   return (
     <>
+    <BackgroundTech/>
     <Tela>
       <Container>
       <Header/>
@@ -25,7 +34,7 @@ export default function Home() {
       <Container>
         <Social/>
         <LineWhite/>
-        <Habilitis/>
+        <Habilitis />
         <LineWhite/>
         <Projects/>
         <LineWhiteSpace/>

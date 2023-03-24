@@ -32,10 +32,12 @@ export const RepositoryContainer = styled.a`
   background-color: #0e5464;
   height: 90%;
   width: 32%;
-  @media screen and (max-width: 1550px) {
-    
-   
-}
+  transition: 1s all;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  &:hover{
+    transition: 1s all;
+    background-color: #11677A;
+  }
 `;
 export const RepositoryRow = styled.div`
   height: 50%;

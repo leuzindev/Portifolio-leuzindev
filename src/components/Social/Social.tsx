@@ -10,8 +10,8 @@ import linkedin from '/public/images/linkedin.png'
 export function Social(){
 
     return(
-        <ContainerSocial>
-            <AreaImgLabel>
+        <ContainerSocial >
+            <AreaImgLabel >
                 <SocialIcons src={github} alt="Github logo" />
                 <LabelSocial href="https://github.com/leuzindev">Github</LabelSocial>
             </AreaImgLabel>

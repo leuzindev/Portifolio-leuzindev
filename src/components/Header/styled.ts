@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link as LinkScroll } from 'react-scroll';
 
 export const ContainerHead = styled.div`
     
@@ -28,21 +28,23 @@ export const AreaLinks = styled.div`
     }
 `
 
-export const Links = styled.a`
-    margin: 10px;
+export const Links = styled(LinkScroll)`
+    margin: 12px;
     cursor: pointer;
     color: white;
     font-weight: bold;
     font-size: 13pt;
-    transition: 1s all;
+    
     &:hover{
         color: #0E5464;
+        transition: 1s all;
     }
     @media screen and (max-width: 1550px) {
        font-size: 15px;
     }
 `
-export const LinkButton = styled(Links)`
+export const LinkButton = styled(LinkScroll)`
+    font-weight: bold;
     cursor: pointer;
     background-color:rgba(255, 255, 255, 0.58);
     border-radius: 2px;

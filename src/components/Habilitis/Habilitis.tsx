@@ -23,14 +23,16 @@ import { LineWhite, Titles } from "@/styles/kitUI";
 
 
 export function Habilitis() {
+
+  
   return (
-    <ContainerTotal>
+    <ContainerTotal id="hab">
       <AreaTitle>
         <Titles>Habilidades</Titles>
       </AreaTitle>
       <ContainerHabilitis>
         <ContentHabilitis>
-          <HabilitisArea>
+          <HabilitisArea data-aos="fade-up">
             <AreaTitleImg>
               <TechImg src={python} alt=""/>
             </AreaTitleImg>
@@ -41,7 +43,7 @@ export function Habilitis() {
                 <SubTitleTech>NodeJS, Django, Express, MySQL, SQLite, MongoDB e AJAX </SubTitleTech>
             </AreaSubTech>
           </HabilitisArea>
-          <HabilitisArea>
+          <HabilitisArea data-aos="fade-up">
           <AreaTitleImg>
               <TechImg src={react} alt=""/>
             </AreaTitleImg>
@@ -52,7 +54,7 @@ export function Habilitis() {
                 <SubTitleTech>ReactJs, React-Native, TailwindCSS, Styled Components</SubTitleTech>
             </AreaSubTech>
           </HabilitisArea>
-          <HabilitisArea>
+          <HabilitisArea data-aos="fade-up">
           <AreaTitleImg>
               <TechImg src={database} alt=""/>
             </AreaTitleImg>
@@ -65,7 +67,7 @@ export function Habilitis() {
           </HabilitisArea>
         </ContentHabilitis>
         <ContentHabilitis>
-          <HabilitisArea>
+          <HabilitisArea data-aos="fade-up">
           <AreaTitleImg>
               <TechImg src={git} alt=""/>
             </AreaTitleImg>
@@ -76,7 +78,7 @@ export function Habilitis() {
                 <SubTitleTech>Versionamento de código utilizando Github ou GitLab</SubTitleTech>
             </AreaSubTech>
           </HabilitisArea>
-          <HabilitisArea>
+          <HabilitisArea data-aos="fade-up">
           <AreaTitleImg>
               <TechImg src={docker} alt=""/>
             </AreaTitleImg>
@@ -87,7 +89,7 @@ export function Habilitis() {
                 <SubTitleTech>Configuração de aplicações back end e front end em ambiente docker</SubTitleTech>
             </AreaSubTech>
           </HabilitisArea>
-          <HabilitisArea>
+          <HabilitisArea data-aos="fade-up">
           <AreaTitleImg>
               <TechImg src={figma} alt=""/>
             </AreaTitleImg>

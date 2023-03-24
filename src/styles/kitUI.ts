@@ -29,7 +29,11 @@ export const TelaSecond = styled.div`
 export const Container = styled.div`
   height: 100%;
   width: 80%;
+  
   @media screen and (min-width: 1921px) {
+    width: 70%;
+  }
+  @media screen and (min-width: 3000px) {
     width: 40%;
   }
 `;

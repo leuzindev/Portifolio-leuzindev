@@ -21,13 +21,13 @@ import icoDocker from "/public/images/icoDocker.png";
 
 export function Projects() {
   return (
-    <ContainerProjects>
+    <ContainerProjects id="projects">
       <TitleSeeMore>
         <Titles>Projetos</Titles>
         <SeeMore href="/projetos">Ver mais</SeeMore>
       </TitleSeeMore>
       <AreaProjects>
-        <Project>
+        <Project data-aos="fade-right">
           <AreaImg>
             <ProjectImg src={cine} alt="Cineflow app" />
           </AreaImg>
@@ -40,7 +40,7 @@ export function Projects() {
             <TechsProjectsImgs src={icoDocker} alt="icone Docker" />
           </AreaImgTech>
         </Project>
-        <Project>
+        <Project data-aos="fade-up">
           <AreaImg>
             <ProjectImg src={pure} alt="Pure Power app" />
           </AreaImg>
@@ -53,7 +53,7 @@ export function Projects() {
             <TechsProjectsImgs src={icoDocker} alt="icone Docker" />
           </AreaImgTech>
         </Project>
-        <Project>
+        <Project data-aos="fade-left">
           <AreaImg>
             <ProjectImg src={cine} alt="Cineflow app" />
           </AreaImg>

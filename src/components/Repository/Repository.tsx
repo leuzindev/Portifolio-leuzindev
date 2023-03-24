@@ -58,12 +58,12 @@ export function Repository() {
   }
 
   return (
-    <ContainerRepositorys>
+    <ContainerRepositorys id="repos">
       <AreaTitleRepository>
         <Titles>Repositórios</Titles>
-        <SeeMore href="/repositorys">Ver mais</SeeMore>
+        <SeeMore href="https://github.com/leuzindev?tab=repositories">Ver mais</SeeMore>
       </AreaTitleRepository>
-      <AreaRespositorys>
+      <AreaRespositorys data-aos="flip-up">
         <RepositoryRow>
           <RepositoryContainer href={repos[0]?.link}>
             <RepositoryWhite>
@@ -155,7 +155,10 @@ export function Repository() {
         </RepositoryRow>
       </AreaRespositorys>
       <GithubBar>
-        <GithubImgBar src={bar} alt="barra do github"/>
+        <GithubImgBar src={bar} alt="barra do github" 
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        />
 
       </GithubBar>
     </ContainerRepositorys>

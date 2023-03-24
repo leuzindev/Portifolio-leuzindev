@@ -4,17 +4,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 
+
 export function Header(){
 
     return(
         <ContainerHead>
-            <Link href="/"><Image src={logo} alt="logo"/></Link>
+            <Link href="/" ><Image src={logo} alt="logo"/></Link>
             <AreaLinks>
-                <Links href="/">Home</Links>
-                <Links>Habilidades</Links>
-                <Links>Projetos</Links>
-                <Links>Repositorios</Links>
-                <LinkButton>Contato</LinkButton>
+                <Links to="/">Home</Links>
+                <Links to="hab" smooth={true} duration={1000}>Habilidades</Links>
+                <Links to="projects" smooth={true} duration={1000}>Projetos</Links>
+                <Links to="repos" smooth={true} duration={1000}>Repositorios</Links>
+                <LinkButton to="contact" smooth={true} duration={1000}>Contato</LinkButton>
             </AreaLinks>
         </ContainerHead>
     )
