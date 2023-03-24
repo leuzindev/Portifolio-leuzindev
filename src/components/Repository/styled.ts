@@ -98,7 +98,6 @@ export const TechRepoImg = styled(Image)`
 
 export const GithubBar = styled.div`
   margin-top: 30px;
-  /* background-color: grey; */
   height: 50%;
   display: flex;
   justify-content: center;
@@ -109,6 +108,11 @@ export const GithubImgBar = styled(Image)`
   object-fit: cover;
   width: 116%;
   height: 116%;
+  @media screen and (max-width: 1550px) {
+    object-fit: none;
+    width: 100%;
+    height: 100%;
+}
 `
 
 export const InfoStars = styled.span`
