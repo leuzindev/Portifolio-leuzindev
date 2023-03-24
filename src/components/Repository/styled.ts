@@ -4,10 +4,7 @@ import Image from "next/image";
 export const ContainerRepositorys = styled.div`
   height: 60%;
   width: 100%;
-  @media screen and (max-width: 1550px) {
-        max-height: 50%;
-        background-color: red;
-    }
+  
 `;
 
 export const AreaTitleRepository = styled.div`
@@ -15,9 +12,7 @@ export const AreaTitleRepository = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 15%;
-  @media screen and (max-width: 1550px) {
- 
-    }
+
   
 `;
 
@@ -29,7 +24,7 @@ export const AreaRespositorys = styled.div`
   justify-content: space-around;
   @media screen and (max-width: 1550px) {
       
-        height: 70%;
+        height: 80%;
     }
 `;
 
@@ -37,6 +32,10 @@ export const RepositoryContainer = styled.a`
   background-color: #0e5464;
   height: 90%;
   width: 32%;
+  @media screen and (max-width: 1550px) {
+    
+   
+}
 `;
 export const RepositoryRow = styled.div`
   height: 50%;
@@ -45,8 +44,8 @@ export const RepositoryRow = styled.div`
   justify-content: space-between;
   width: 100%;
   @media screen and (max-width: 1550px) {
-        
-        height: 50%;
+       
+        height: 55%;
         
     }
 `;
@@ -63,6 +62,10 @@ export const RepositoryName = styled.p`
   font-weight: bold;
   font-size: 20px;
   margin-left: 20px;
+  @media screen and (max-width: 1550px) {
+    
+    font-size: 15px;
+}
 `;
 
 export const AreaRepositoryDescription = styled.div`
@@ -76,6 +79,10 @@ export const AreaRepositoryDescription = styled.div`
 export const RepositoryDescription = styled.p`
   color: white;
   font-size: 17px;
+  @media screen and (max-width: 1550px) {
+    
+    font-size: 13px;
+}
 `;
 
 export const AreaTech = styled.div`
@@ -98,5 +105,9 @@ export const GithubBar = styled.div`
 export const InfoStars = styled.span`
   font-weight: bold;
   color: white;
+  @media screen and (max-width: 1550px) {
+    
+    font-size: 12px;
+}
  
 `

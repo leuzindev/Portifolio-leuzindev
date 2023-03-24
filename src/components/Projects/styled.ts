@@ -6,8 +6,9 @@ export const ContainerProjects = styled.div`
     margin-bottom: 20px;
     height: 43%;
     @media screen and (max-width: 1550px) {
-        max-height: 40%;
-    
+        height: 43%;
+      
+        
         
     }
 `
@@ -20,7 +21,7 @@ export const TitleSeeMore = styled.div`
    align-items: flex-end;
    justify-content: space-between;
    @media screen and (max-width: 1550px) {
-        height: 20%;
+        
         
     }
 `
@@ -30,8 +31,7 @@ export const AreaProjects = styled.div`
     justify-content: space-between;
     align-items: center;
     @media screen and (max-width: 1550px) {
-      
-        height: 100%;
+        height: 90%;
     }
    
 `
@@ -66,14 +66,19 @@ export const NameProject = styled.p`
     font-weight: bold;
     font-size: 20px;
     margin-left: 30px;
+    @media screen and (max-width: 1550px) {
+        font-size: 15px;
+    }
 `
 
 export const ProjectImg = styled(Image)`
     object-fit: cover;
     width: 100%;
     height: 100%;
+  
 `
 
 export const TechsProjectsImgs = styled(Image)`
     margin: 10px;
+    
 `

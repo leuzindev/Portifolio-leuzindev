@@ -9,7 +9,6 @@ import {
   HabilitisArea,
   SubTitleTech,
   TechImg,
-  TitleHabilitis,
   TitleTech,
 } from "./styled";
 

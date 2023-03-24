@@ -1,7 +1,7 @@
 import { AboutMe } from "@/components/AboutMe/AboutMe";
 import { Social } from "@/components/Social/Social";
 import { Header } from "@/components/Header/Header";
-import { Container, Footer, InfoFooter, LineWhite, Sub, Tela, TelaSecond } from "@/styles/kitUI";
+import { Container, Footer, InfoFooter, LineWhite, LineWhiteSpace, Sub, Tela, TelaSecond } from "@/styles/kitUI";
 import { Habilitis } from "@/components/Habilitis/Habilitis";
 import { Projects } from "@/components/Projects/Projects";
 import { Repository } from "@/components/Repository/Repository";
@@ -28,7 +28,7 @@ export default function Home() {
         <Habilitis/>
         <LineWhite/>
         <Projects/>
-        <LineWhite/>
+        <LineWhiteSpace/>
       </Container>
     </Tela>
     <Tela>

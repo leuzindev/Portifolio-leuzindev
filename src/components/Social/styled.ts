@@ -9,6 +9,7 @@ export const ContainerSocial = styled.div`
     justify-content: space-evenly;
     height: 5%;
     flex-wrap: wrap;
+    
 `
 
 export const AreaImgLabel = styled.div`

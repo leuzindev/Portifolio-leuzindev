@@ -39,15 +39,28 @@ export const LineWhite = styled.hr`
   color: white;
 `
 
+export const LineWhiteSpace = styled(LineWhite)`
+  @media screen and (max-width: 1550px) {
+      margin-top: 20px;
+    }
+  
+`
+
 export const Titles = styled.h1`
     color: white;
     font-weight: bold;
+     @media screen and (max-width: 1550px) {
+        font-size: 20px;
+    }
 `
 
 export const SeeMore = styled.a`
     color: white;
     font-weight: 600;
     cursor: pointer;
+    @media screen and (max-width: 1550px) {
+        font-size: 12px;
+    }
 `
 
 export const Footer = styled.div`
