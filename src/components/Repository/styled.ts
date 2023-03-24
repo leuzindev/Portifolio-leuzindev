@@ -98,9 +98,18 @@ export const TechRepoImg = styled(Image)`
 
 export const GithubBar = styled.div`
   margin-top: 30px;
-  background-color: grey;
+  /* background-color: grey; */
   height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
+
+export const GithubImgBar = styled(Image)`
+  object-fit: cover;
+  width: 116%;
+  height: 116%;
+`
 
 export const InfoStars = styled.span`
   font-weight: bold;

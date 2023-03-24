@@ -7,6 +7,7 @@ import {
   AreaTitleRepository,
   ContainerRepositorys,
   GithubBar,
+  GithubImgBar,
   InfoStars,
   RepositoryContainer,
   RepositoryDescription,
@@ -19,6 +20,7 @@ import {
 
 import star from "/public/images/star.png";
 import fork from "/public/images/fork.png";
+import bar from "/public/images/bar.png";
 
 import { api } from "@/lib/axios";
 
@@ -152,7 +154,10 @@ export function Repository() {
           </RepositoryContainer>
         </RepositoryRow>
       </AreaRespositorys>
-      <GithubBar></GithubBar>
+      <GithubBar>
+        <GithubImgBar src={bar} alt="barra do github"/>
+
+      </GithubBar>
     </ContainerRepositorys>
   );
 }
