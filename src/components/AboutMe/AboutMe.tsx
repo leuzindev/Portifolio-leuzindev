@@ -14,8 +14,8 @@ const minhaDataNascimento = '2003-04-08';
 export function AboutMe() {
 
     return(
-        // data-aos="fade-up"
-        <AreaAboutMeContainer >
+      
+        <AreaAboutMeContainer data-aos="fade-up" >
             <LeftCard>
                 <AreaTitle>
                     <TitleMe>Olá, tudo bem?!</TitleMe>

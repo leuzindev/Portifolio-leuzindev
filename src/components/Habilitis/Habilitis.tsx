@@ -70,7 +70,7 @@ export function Habilitis() {
         <ContainerMobile>
           <Swiper pagination={true} modules={[Pagination]} className="mySwiper" style={{ height: "100%", width: "100%" }}>
             <SwiperSlideContent>
-              <HabitsMobile>
+              <HabitsMobile data-aos="fade-up">
                 <AreaImgTechMobile>
                   <DiPython size={40} color="white"/>
                 </AreaImgTechMobile>
@@ -143,8 +143,8 @@ export function Habilitis() {
       ) : (
         <ContainerHabilitis>
           <ContentHabilitis>
-            {/* data-aos="fade-up" */}
-            <HabilitisArea>
+         
+            <HabilitisArea data-aos="fade-up" >
               <AreaTitleImg>
                 <TechImg src={python} alt="" />
               </AreaTitleImg>
@@ -157,7 +157,7 @@ export function Habilitis() {
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea>
+            <HabilitisArea data-aos="fade-up" >
               <AreaTitleImg>
                 <TechImg src={react} alt="" />
               </AreaTitleImg>
@@ -170,7 +170,7 @@ export function Habilitis() {
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea>
+            <HabilitisArea data-aos="fade-up" >
               <AreaTitleImg>
                 <TechImg src={database} alt="" />
               </AreaTitleImg>
@@ -185,7 +185,7 @@ export function Habilitis() {
             </HabilitisArea>
           </ContentHabilitis>
           <ContentHabilitis>
-            <HabilitisArea>
+            <HabilitisArea data-aos="fade-up" >
               <AreaTitleImg>
                 <TechImg src={git} alt="" />
               </AreaTitleImg>
@@ -198,7 +198,7 @@ export function Habilitis() {
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea>
+            <HabilitisArea data-aos="fade-up" >
               <AreaTitleImg>
                 <TechImg src={docker} alt="" />
               </AreaTitleImg>
@@ -212,7 +212,7 @@ export function Habilitis() {
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea>
+            <HabilitisArea data-aos="fade-up" >
               <AreaTitleImg>
                 <TechImg src={figma} alt="" />
               </AreaTitleImg>

@@ -92,13 +92,14 @@ export function Repository() {
     <ContainerRepositorys id="repos">
       <AreaTitleRepository>
         <Titles>Repositórios</Titles>
+        
         <SeeMore href="https://github.com/leuzindev?tab=repositories">
           Ver mais
         </SeeMore>
       </AreaTitleRepository>
 
       {isMobile ? (
-        <RepoContainerMobile>
+        <RepoContainerMobile data-aos="flip-up">
           <Swiper
             pagination={true}
             modules={[Pagination]}
@@ -312,9 +313,9 @@ export function Repository() {
       )}
 
       <GithubBar>
-        {/* data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom" */}
-        <GithubImgBar src={bar} alt="barra do github" />
+      
+        <GithubImgBar src={bar} alt="barra do github"  data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"/>
       </GithubBar>
     </ContainerRepositorys>
   );

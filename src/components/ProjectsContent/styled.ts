@@ -52,7 +52,8 @@ export const AreaImg = styled.div`
 `
 
 export const ProjectImg = styled(Image)`
-   object-fit: contain;
+   object-fit: cover;
+   object-position: center 20%;
    width: 100%;
    height: 100%;
    
@@ -62,8 +63,8 @@ export const ProjectImg = styled(Image)`
 export const AreaProjectName = styled.div`
    background-color: white;
    width: 100%;
-    height: 20%;
-    display: flex;
+   height: 20%;
+   display: flex;
    align-items: center;
    
 
@@ -71,7 +72,7 @@ export const AreaProjectName = styled.div`
 export const TechName = styled.p`
    color: black;
    font-weight: bold;
-   font-size: 20px;
+   font-size: 15px;
     margin-left: 20px;
     @media screen and (max-width: 1550px) {
        font-size: 15px;

@@ -38,7 +38,9 @@ import { EffectCreative } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-creative";
-
+import { DiPython, DiNodejs  } from "react-icons/di";
+import { SiReact, SiFigma, SiPrisma  } from "react-icons/si";
+import {FaNodeJs} from "react-icons/fa"
 export function Projects() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -57,7 +59,7 @@ export function Projects() {
     <ContainerProjects id="projects">
       <TitleSeeMore>
         <Titles>Projetos</Titles>
-        <SeeMore href="/projetos">Ver mais</SeeMore>
+        {isMobile ? <></> : <SeeMore href="/projetos">Ver mais</SeeMore>}
       </TitleSeeMore>
       {isMobile ? (
         // código JSX para telas menores que 900px
@@ -81,111 +83,155 @@ export function Projects() {
             className="mySwiper5"
           >
             <SwiperSlide className="slide">
-              <AreaProjectMobile>
+              <AreaProjectMobile data-aos="fade-right">
                 <AreaImgMobile>
-                  <ImgProject src={cines} alt="img projeto"/>
+                  <ImgProject src={cines} alt="img projeto" />
                 </AreaImgMobile>
                 <AreaTitleProject>
-                  <TitleProject>Cine Flow - mobile application</TitleProject>
+                  <TitleProject>Cine Flow - Streaming mobile app</TitleProject>
                 </AreaTitleProject>
               </AreaProjectMobile>
             </SwiperSlide>
             <SwiperSlide className="slide">
               <AreaProjectMobile>
                 <AreaImgMobile>
-                  <ImgProject src={pures}  alt="img projeto"/>
+                  <ImgProject src={pures} alt="img projeto" />
                 </AreaImgMobile>
                 <AreaTitleProject>
-                  <TitleProject>Cine Flow - mobile application</TitleProject>
+                  <TitleProject>Pure power - montador de treinos</TitleProject>
                 </AreaTitleProject>
               </AreaProjectMobile>
             </SwiperSlide>
             <SwiperSlide className="slide">
               <AreaProjectMobile>
                 <AreaImgMobile>
-                  <ImgProject src={habits}  alt="img projeto"/>
+                  <ImgProject src={habits} alt="img projeto" />
                 </AreaImgMobile>
                 <AreaTitleProject>
-                  <TitleProject>Cine Flow - mobile application</TitleProject>
+                  <TitleProject>Habits - site e aplicativo de hábitos</TitleProject>
                 </AreaTitleProject>
               </AreaProjectMobile>
             </SwiperSlide>
             <SwiperSlide className="slide">
               <AreaProjectMobile>
                 <AreaImgMobile>
-                  <ImgProject src={hzc}  alt="img projeto"/>
+                  <ImgProject src={hzc} alt="img projeto" />
                 </AreaImgMobile>
                 <AreaTitleProject>
-                  <TitleProject>Cine Flow - mobile application</TitleProject>
+                  <TitleProject>Hzc - site skate board</TitleProject>
                 </AreaTitleProject>
               </AreaProjectMobile>
             </SwiperSlide>
             <SwiperSlide className="slide">
               <AreaProjectMobile>
                 <AreaImgMobile>
-                  <ImgProject src={connect}  alt="img projeto"/>
+                  <ImgProject src={connect} alt="img projeto" />
                 </AreaImgMobile>
                 <AreaTitleProject>
-                  <TitleProject>Cine Flow - mobile application</TitleProject>
+                  <TitleProject>Connect Bank - banco vitual</TitleProject>
                 </AreaTitleProject>
               </AreaProjectMobile>
             </SwiperSlide>
             <SwiperSlide className="slide">
               <AreaProjectMobile>
                 <AreaImgMobile>
-                  <ImgProject src={lorem}  alt="img projeto"/>
+                  <ImgProject src={lorem} alt="img projeto" />
                 </AreaImgMobile>
                 <AreaTitleProject>
-                  <TitleProject>Cine Flow - mobile application</TitleProject>
+                  <TitleProject>Lorem barber - site para barbearia</TitleProject>
                 </AreaTitleProject>
               </AreaProjectMobile>
             </SwiperSlide>
-          
           </Swiper>
         </AreaProjectsMobile>
       ) : (
         // código JSX para telas maiores ou iguais a 900px
         <AreaProjects>
-          {/* data-aos="fade-right" */}
-          <Project>
+          <Project data-aos="fade-right">
             <AreaImg>
-              <ProjectImg src={cine} alt="Cineflow app" />
+              <ProjectImg src={cines} alt="Cineflow app" />
             </AreaImg>
             <AreaNameTech>
-              <NameProject>CineFlow - Mobile Application</NameProject>
+              <NameProject>Cine Flow - Streaming mobile app</NameProject>
             </AreaNameTech>
             <AreaImgTech>
-              <TechsProjectsImgs src={icoPython} alt="icone Python" />
-              <TechsProjectsImgs src={icoReact} alt="icone Reac" />
-              <TechsProjectsImgs src={icoDocker} alt="icone Docker" />
+            <DiPython 
+                color="white"
+                size={30}
+                spacing={10}
+            />
+            <SiReact 
+                color="white"
+                size={25}
+                spacing={10}
+            />
+            <SiFigma
+              color="white"
+              size={20}
+              spacing={10}
+            />
             </AreaImgTech>
           </Project>
-          {/* data-aos="fade-up" */}
-          <Project>
+
+          <Project data-aos="fade-up">
             <AreaImg>
-              <ProjectImg src={pure} alt="Pure Power app" />
+              <ProjectImg src={pures} alt="Pure Power app" />
             </AreaImg>
             <AreaNameTech>
-              <NameProject>Pure Power - Mobile Application</NameProject>
+              <NameProject>Pure Power - Aplicativo de treinos</NameProject>
             </AreaNameTech>
             <AreaImgTech>
-              <TechsProjectsImgs src={icoPython} alt="icone Python" />
-              <TechsProjectsImgs src={icoReact} alt="icone Reac" />
-              <TechsProjectsImgs src={icoDocker} alt="icone Docker" />
+            <DiPython 
+                color="white"
+                size={30}
+                spacing={10}
+            />
+            <SiReact 
+                color="white"
+                size={25}
+                spacing={10}
+            />
+            <SiFigma
+              color="white"
+              size={20}
+              spacing={10}
+            />
             </AreaImgTech>
           </Project>
-          {/* data-aos="fade-left" */}
-          <Project>
+
+          <Project data-aos="fade-left">
             <AreaImg>
-              <ProjectImg src={cine} alt="Cineflow app" />
+              <ProjectImg src={habits} alt="Cineflow app" />
             </AreaImg>
             <AreaNameTech>
-              <NameProject>Pure Power - Mobile Application</NameProject>
+              <NameProject>Habits - site e app de hábitos</NameProject>
             </AreaNameTech>
             <AreaImgTech>
-              <TechsProjectsImgs src={icoPython} alt="icone Python" />
-              <TechsProjectsImgs src={icoReact} alt="icone Reac" />
-              <TechsProjectsImgs src={icoDocker} alt="icone Docker" />
+            <DiPython 
+                color="white"
+                size={30}
+                spacing={10}
+            />
+            <SiReact 
+                color="white"
+                size={25}
+                spacing={10}
+            />
+            <SiFigma
+              color="white"
+              size={20}
+              spacing={10}
+            />
+            <FaNodeJs
+               color="white"
+               size={20}
+               spacing={10}
+            />
+            <SiPrisma 
+               color="white"
+               size={20}
+               spacing={10}
+            />
             </AreaImgTech>
           </Project>
         </AreaProjects>
