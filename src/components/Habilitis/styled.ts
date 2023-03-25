@@ -37,8 +37,9 @@ export const ContainerHabilitis = styled.div`
     flex-direction: column;
     @media screen and (max-width: 1550px) {
        height:  100%;
-       
+       background-color: red;
     }
+    
     
 `
 export const ContentHabilitis = styled.div`
@@ -53,6 +54,11 @@ export const ContentHabilitis = styled.div`
        height: 50%;
        
     }
+    @media screen and (max-width: 900px) {
+      
+    
+    
+    }
      
 `
 
@@ -61,7 +67,11 @@ export const HabilitisArea = styled.div`
     background-color: #0E5464;
     width: 32%;
     height: 100%;
+    @media screen and (max-width: 900px) {
+       width: 100%;
+      
     
+    }
     
 `
 

@@ -32,7 +32,8 @@ export function Habilitis() {
       </AreaTitle>
       <ContainerHabilitis>
         <ContentHabilitis>
-          <HabilitisArea data-aos="fade-up">
+        {/* data-aos="fade-up" */}
+          <HabilitisArea >
             <AreaTitleImg>
               <TechImg src={python} alt=""/>
             </AreaTitleImg>
@@ -43,7 +44,7 @@ export function Habilitis() {
                 <SubTitleTech>NodeJS, Django, Express, MySQL, SQLite, MongoDB e AJAX </SubTitleTech>
             </AreaSubTech>
           </HabilitisArea>
-          <HabilitisArea data-aos="fade-up">
+          <HabilitisArea >
           <AreaTitleImg>
               <TechImg src={react} alt=""/>
             </AreaTitleImg>
@@ -54,7 +55,7 @@ export function Habilitis() {
                 <SubTitleTech>ReactJs, React-Native, TailwindCSS, Styled Components</SubTitleTech>
             </AreaSubTech>
           </HabilitisArea>
-          <HabilitisArea data-aos="fade-up">
+          <HabilitisArea >
           <AreaTitleImg>
               <TechImg src={database} alt=""/>
             </AreaTitleImg>
@@ -67,7 +68,7 @@ export function Habilitis() {
           </HabilitisArea>
         </ContentHabilitis>
         <ContentHabilitis>
-          <HabilitisArea data-aos="fade-up">
+          <HabilitisArea >
           <AreaTitleImg>
               <TechImg src={git} alt=""/>
             </AreaTitleImg>
@@ -78,7 +79,7 @@ export function Habilitis() {
                 <SubTitleTech>Versionamento de código utilizando Github ou GitLab</SubTitleTech>
             </AreaSubTech>
           </HabilitisArea>
-          <HabilitisArea data-aos="fade-up">
+          <HabilitisArea >
           <AreaTitleImg>
               <TechImg src={docker} alt=""/>
             </AreaTitleImg>
@@ -89,7 +90,7 @@ export function Habilitis() {
                 <SubTitleTech>Configuração de aplicações back end e front end em ambiente docker</SubTitleTech>
             </AreaSubTech>
           </HabilitisArea>
-          <HabilitisArea data-aos="fade-up">
+          <HabilitisArea >
           <AreaTitleImg>
               <TechImg src={figma} alt=""/>
             </AreaTitleImg>

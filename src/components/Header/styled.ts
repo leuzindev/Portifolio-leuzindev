@@ -27,6 +27,9 @@ export const AreaLinks = styled.div`
         width: 50%;
        
     }
+    @media screen and (max-width: 900px) {
+       display: none;
+    }
 `
 export const LinkHome = styled(Link)`
     margin: 12px;

@@ -36,6 +36,10 @@ export const ProjectContainer = styled.div`
     @media screen and (max-width: 1550px) {
        margin: 10px;
     }
+    @media screen and (max-width: 900px) {
+      margin: 5px;
+    
+    }
 
 
 `
@@ -68,6 +72,10 @@ export const TechName = styled.p`
     @media screen and (max-width: 1550px) {
        font-size: 15px;
     }
+    @media screen and (max-width: 900px) {
+      font-size: 10px;
+    
+    }
 
 `
 
@@ -78,7 +86,7 @@ export const AreaProjectTech = styled.div`
    height: 20%;
    display: flex;
    align-items: center;
-
+    
 `
 
 

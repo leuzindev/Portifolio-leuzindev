@@ -7,6 +7,11 @@ export const ContainerFooter = styled.div`
    
     width: 100%;
     height: 100%;
+    @media screen and (max-width: 900px) {
+     
+       flex-direction: column;
+        
+    }
 `
 
 export const LeftFooter = styled.div`
@@ -17,6 +22,11 @@ export const LeftFooter = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    @media screen and (max-width: 900px) {
+       
+        width: 100%;
+    
+    }
   
 `
 
@@ -28,6 +38,10 @@ export const RightFooter = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    @media screen and (max-width: 900px) {
+       display: none;
+    
+    }
 `
 
 export const TitleContato = styled.h1`
@@ -62,6 +76,13 @@ export const ImgLabel = styled.div`
         width: 33%;
        
     }
+    @media screen and (max-width: 900px) {
+       
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    
+    }
     width: 30%;
     margin-top: 10px;
 
@@ -74,9 +95,14 @@ export const AreaNomeeEmail = styled.div`
     align-items: center;
     justify-content: center;
     @media screen and (max-width: 1550px) {
-     
+      
         height: 35%;
         
+    }
+    @media screen and (max-width: 900px) {
+       
+       
+    
     }
 `
 

@@ -27,7 +27,8 @@ export function Projects() {
         <SeeMore href="/projetos">Ver mais</SeeMore>
       </TitleSeeMore>
       <AreaProjects>
-        <Project data-aos="fade-right">
+      {/* data-aos="fade-right" */}
+        <Project >
           <AreaImg>
             <ProjectImg src={cine} alt="Cineflow app" />
           </AreaImg>
@@ -40,7 +41,8 @@ export function Projects() {
             <TechsProjectsImgs src={icoDocker} alt="icone Docker" />
           </AreaImgTech>
         </Project>
-        <Project data-aos="fade-up">
+        {/* data-aos="fade-up" */}
+        <Project >
           <AreaImg>
             <ProjectImg src={pure} alt="Pure Power app" />
           </AreaImg>
@@ -53,7 +55,8 @@ export function Projects() {
             <TechsProjectsImgs src={icoDocker} alt="icone Docker" />
           </AreaImgTech>
         </Project>
-        <Project data-aos="fade-left">
+        {/* data-aos="fade-left" */}
+        <Project>
           <AreaImg>
             <ProjectImg src={cine} alt="Cineflow app" />
           </AreaImg>

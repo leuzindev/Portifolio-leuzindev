@@ -33,6 +33,12 @@ export const AreaProjects = styled.div`
     @media screen and (max-width: 1550px) {
         height: 90%;
     }
+    @media screen and (max-width: 900px) {
+    
+       flex-direction: column;
+        width: 100%;
+        
+    }
    
 `
 
@@ -40,6 +46,11 @@ export const Project = styled.div`
     background-color: #0E5464;
     width: 32%;
     height: 90%;
+    @media screen and (max-width: 900px) {
+        width: 100%;
+        height: 40%;
+        
+    }
 `
 
 export const AreaImg = styled.div`

@@ -12,6 +12,11 @@ export const Tela = styled.div`
         height: 100vh;
         
     }
+    @media screen and (max-width: 900px) {
+        max-height: 100vh;
+    
+    }
+    
 
 `;
 
@@ -26,13 +31,18 @@ export const TelaSecond = styled.div`
   @media screen and (max-width: 1550px) {
        height: 190vh;
       }
+
+      
   
 `;
 
 export const Container = styled.div`
   height: 100%;
   width: 80%;
-  
+  @media screen and (max-width: 900px) {
+       width: 90%;
+      
+    }
   @media screen and (min-width: 1921px) {
     width: 70%;
   }
@@ -86,6 +96,10 @@ export const InfoFooter = styled.p`
   @media screen and (max-width: 1550px) {
     font-size: 13px;
   }
+  @media screen and (max-width: 900px) {
+      font-size: 10px;
+    
+    }
 `
 
 export const Sub = styled.span`
