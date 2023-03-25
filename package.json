@@ -31,7 +31,6 @@
     "@types/aos": "^3.0.4",
     "@types/react-motion": "^0.0.33",
     "@types/styled-components": "^5.1.26",
-    "css-loader": "^6.7.3",
-    "postcss-loader": "^7.1.0"
+    "css-loader": "^6.7.3"
   }
 }
