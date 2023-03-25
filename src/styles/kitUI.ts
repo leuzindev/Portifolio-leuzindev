@@ -23,7 +23,10 @@ export const TelaSecond = styled.div`
   align-items: center;
   flex-direction: column;
   background: linear-gradient(to right, #145277, #83D0CB);
-
+  @media screen and (max-width: 1550px) {
+       height: 190vh;
+      }
+  
 `;
 
 export const Container = styled.div`

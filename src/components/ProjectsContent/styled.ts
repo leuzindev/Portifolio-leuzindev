@@ -10,7 +10,9 @@ export const BgContainer = styled.div`
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: flex-start;
-    
+    @media screen and (max-width: 1550px) {
+       
+    }
 
 `
 
@@ -31,7 +33,10 @@ export const ProjectContainer = styled.div`
     height: 30%;
     width: 30%;
     margin: 20px;
-    
+    @media screen and (max-width: 1550px) {
+       margin: 10px;
+    }
+
 
 `
 
@@ -52,6 +57,7 @@ export const AreaProjectName = styled.div`
     height: 20%;
     display: flex;
    align-items: center;
+   
 
 `
 export const TechName = styled.p`
@@ -59,6 +65,10 @@ export const TechName = styled.p`
    font-weight: bold;
    font-size: 20px;
     margin-left: 20px;
+    @media screen and (max-width: 1550px) {
+       font-size: 15px;
+    }
+
 `
 
 
