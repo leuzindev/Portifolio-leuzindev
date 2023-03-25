@@ -24,6 +24,7 @@
     "react-icons": "^4.8.0",
     "react-scroll": "^1.8.9",
     "styled-components": "^5.3.9",
+    "swiper": "^9.1.1",
     "typescript": "5.0.2"
   },
   "devDependencies": {

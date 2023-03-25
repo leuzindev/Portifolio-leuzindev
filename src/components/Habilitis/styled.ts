@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
+import { SwiperSlide } from "swiper/react";
 
 export const ContainerTotal = styled.div`
     height: 50%;
@@ -23,6 +24,7 @@ export const AreaTitle = styled.div`
         height: 15%;
     
     }
+   
 `
 
 
@@ -37,7 +39,7 @@ export const ContainerHabilitis = styled.div`
     flex-direction: column;
     @media screen and (max-width: 1550px) {
        height:  100%;
-       background-color: red;
+  
     }
     
     
@@ -135,3 +137,70 @@ export const SubTitleTech = styled.p`
     }
 `
 
+export const ContainerMobile = styled.div`
+    
+    height: 90%;
+    width: 100%;
+
+  
+    
+`
+
+export const HabitsMobile = styled.div`
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #0E5464;
+    height: 70%;
+    margin: 3px;
+    width: 100%;
+
+`
+
+export const SwiperSlideContent = styled(SwiperSlide)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+`
+
+export const AreaImgTechMobile = styled.div`
+    
+    height: 30%;
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-end;
+
+`
+
+export const AreaTitleTechMobile = styled.div`
+    
+    height: 20%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  
+
+`
+
+export const TitelTechMobile = styled.h1`
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+
+`
+
+export const AreaSubTitleTechMobile = styled.div`
+    
+    height: 30%;
+    width: 85%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  
+    
+`
+
+
+export const SubtitleMobile = styled.p`
+    
+    color: white;
+`

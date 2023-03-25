@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 
 export const ContainerProjects = styled.div`
@@ -11,6 +12,7 @@ export const ContainerProjects = styled.div`
         
         
     }
+   
 `
 
 
@@ -92,4 +94,49 @@ export const ProjectImg = styled(Image)`
 export const TechsProjectsImgs = styled(Image)`
     margin: 10px;
     
+`
+
+export const AreaProjectsMobile = styled.div`
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+`
+
+export const SliderContent = styled(SwiperSlide)`
+       
+    height: 100%;
+    
+`
+
+export const AreaProjectMobile = styled.div`
+    height: 100%;
+    background-color: #0E5464;
+`
+
+export const AreaImgMobile = styled.div`
+    height: 80%;
+
+`
+
+export const AreaTitleProject = styled.div`
+    height: 20%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+`
+
+export const TitleProject = styled.h1`
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+`
+
+export const ImgProject = styled(Image)`
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 `

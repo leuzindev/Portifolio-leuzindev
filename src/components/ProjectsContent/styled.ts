@@ -13,6 +13,7 @@ export const BgContainer = styled.div`
     @media screen and (max-width: 1550px) {
        
     }
+   
 
 `
 
@@ -51,6 +52,9 @@ export const AreaImg = styled.div`
 `
 
 export const ProjectImg = styled(Image)`
+   object-fit: contain;
+   width: 100%;
+   height: 100%;
    
     
 

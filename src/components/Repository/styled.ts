@@ -115,6 +115,11 @@ export const GithubImgBar = styled(Image)`
     width: 100%;
     height: 100%;
 }
+@media screen and (max-width: 900px) {
+       
+  object-fit: cover;
+    
+  }
 `
 
 export const InfoStars = styled.span`
@@ -125,4 +130,57 @@ export const InfoStars = styled.span`
     font-size: 12px;
 }
  
+`
+
+
+export const RepoContainerMobile = styled.div`
+
+  height: 80%;
+
+
+`
+
+
+export const RepoMobile = styled.a`
+  background-color: #0e5464;
+  height: 70%;
+  width: 100%;
+  margin: 5px;
+`
+
+export const RepoMobileWhite = styled.div`
+  background-color: white;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+`
+export const NameRepo = styled.p`
+  margin-left: 20px;
+  font-weight: bold;
+  color: black;
+  font-size: 13px;
+`
+
+export const AreaSubRepo = styled.div`
+
+  height: 40%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+`
+
+export const SubRepo = styled.p`
+  color: white;
+  font-size: 13px;
+  margin-left: 20px;
+  
+`
+
+export const AreaStars = styled.div`
+  
+  height: 30%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
 `
