@@ -16,7 +16,7 @@ export function BackgroundTech(){
               top: "30%",
               left: "0%",
             }}
-            onUpdate={(values) => {
+            onUpdate={(values : any) => {
               if (+values.x > window.innerWidth * 0.7) {
                 // Aplica o efeito de fade-in quando o elemento estiver a 70% da largura da tela
                 return { opacity: 1 };
@@ -38,8 +38,8 @@ export function BackgroundTech(){
               top: "70%",
               left: "0%",
             }}
-            onUpdate={(values) => {
-              if (values.x > window.innerWidth * 0.7) {
+            onUpdate={(values: any) => {
+              if (+values.x > window.innerWidth * 0.7) {
                 // Aplica o efeito de fade-in quando o elemento estiver a 70% da largura da tela
                 return { opacity: 1 };
               }
@@ -56,8 +56,8 @@ export function BackgroundTech(){
               top: "40%",
               left: "0%",
             }}
-            onUpdate={(values) => {
-              if (values.x > window.innerWidth * 0.7) {
+            onUpdate={(values: any) => {
+              if (+values.x > window.innerWidth * 0.7) {
                 // Aplica o efeito de fade-in quando o elemento estiver a 70% da largura da tela
                 return { opacity: 1 };
               }
@@ -74,8 +74,8 @@ export function BackgroundTech(){
               top: "90%",
               left: "0%",
             }}
-            onUpdate={(values) => {
-              if (values.x > window.innerWidth * 0.7) {
+            onUpdate={(values: any) => {
+              if (+values.x > window.innerWidth * 0.7) {
                 // Aplica o efeito de fade-in quando o elemento estiver a 70% da largura da tela
                 return { opacity: 1 };
               }
@@ -92,8 +92,8 @@ export function BackgroundTech(){
               top: "10%",
               left: "0%",
             }}
-            onUpdate={(values) => {
-              if (values.x > window.innerWidth * 0.7) {
+            onUpdate={(values: any) => {
+              if (+values.x > window.innerWidth * 0.7) {
                 // Aplica o efeito de fade-in quando o elemento estiver a 70% da largura da tela
                 return { opacity: 1 };
               }
@@ -110,8 +110,8 @@ export function BackgroundTech(){
               top: "50%",
               left: "0%",
             }}
-            onUpdate={(values) => {
-              if (values.x > window.innerWidth * 0.7) {
+            onUpdate={(values: any) => {
+              if (+values.x > window.innerWidth * 0.7) {
                 // Aplica o efeito de fade-in quando o elemento estiver a 70% da largura da tela
                 return { opacity: 1 };
               }
