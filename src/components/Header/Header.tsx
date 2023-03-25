@@ -1,4 +1,4 @@
-import { AreaLinks, ContainerHead, LinkButton, Links } from "./styled";
+import { AreaLinks, ContainerHead, LinkButton, LinkHome, Links } from "./styled";
 import logo from '/public/images/LeuzinDev.png'
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +11,7 @@ export function Header(){
         <ContainerHead>
             <Link href="/" ><Image src={logo} alt="logo"/></Link>
             <AreaLinks>
-                <Links to="/">Home</Links>
+                <LinkHome href="/">Home</LinkHome>
                 <Links to="hab" smooth={true} duration={1000}>Habilidades</Links>
                 <Links to="projects" smooth={true} duration={1000}>Projetos</Links>
                 <Links to="repos" smooth={true} duration={1000}>Repositorios</Links>

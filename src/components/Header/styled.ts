@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkScroll } from 'react-scroll';
+import Link from "next/link";
 
 export const ContainerHead = styled.div`
     
@@ -27,7 +28,21 @@ export const AreaLinks = styled.div`
        
     }
 `
-
+export const LinkHome = styled(Link)`
+    margin: 12px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 13pt;
+    
+    &:hover{
+        color: #0E5464;
+        transition: 1s all;
+    }
+    @media screen and (max-width: 1550px) {
+       font-size: 15px;
+    }
+`
 export const Links = styled(LinkScroll)`
     margin: 12px;
     cursor: pointer;

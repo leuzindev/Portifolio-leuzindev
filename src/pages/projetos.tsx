@@ -1,23 +1,16 @@
 import { FooterContent } from "@/components/FooterContent/FooterContent";
 import { Header } from "@/components/Header/Header";
-import { Container, Footer, InfoFooter, Sub, Tela } from "@/styles/kitUI";
+import { ProjectsContent } from "@/components/ProjectsContent/ProjectsContent";
+import { Container, Footer, InfoFooter, Sub, Tela, TelaSecond } from "@/styles/kitUI";
 import { useEffect, useState } from "react";
-import { DiReact } from "react-icons/di";
-import { motion } from "framer-motion";
+
 export default function Projetos() {
   return (
-    <Tela>
+    <TelaSecond>
       <Container>
         <Header />
-        
-        <motion.div
-          animate={{ x: "100vw" }} 
-          transition={{ duration: 10, repeat: Infinity }} 
-          >
-          <DiReact 
-            size={40}
-          />
-        </motion.div>
+        <ProjectsContent />
+   
       </Container>
       <Footer>
         <FooterContent />
@@ -26,6 +19,6 @@ export default function Projetos() {
           <Sub>Vercel</Sub> entre outras tecnologias.
         </InfoFooter>
       </Footer>
-    </Tela>
+    </TelaSecond>
   );
 }

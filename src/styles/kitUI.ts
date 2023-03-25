@@ -16,7 +16,7 @@ export const Tela = styled.div`
 `;
 
 export const TelaSecond = styled.div`
-  max-height: 100vh;
+  height: 150vh;
   width: 100%;
   display: flex;
   justify-content: center;
