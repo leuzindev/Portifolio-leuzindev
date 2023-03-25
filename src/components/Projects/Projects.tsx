@@ -39,7 +39,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-creative";
 import { DiPython, DiNodejs  } from "react-icons/di";
-import { SiReact, SiFigma, SiPrisma  } from "react-icons/si";
+import { SiReact, SiFigma, SiPrisma, SiDjango  } from "react-icons/si";
 import {FaNodeJs} from "react-icons/fa"
 export function Projects() {
   const [isMobile, setIsMobile] = useState(false);
@@ -165,6 +165,11 @@ export function Projects() {
                 size={25}
                 spacing={10}
             />
+             <SiDjango 
+              color="white"
+              size={20}
+              spacing={10}
+            />
             <SiFigma
               color="white"
               size={20}
@@ -191,6 +196,11 @@ export function Projects() {
                 size={25}
                 spacing={10}
             />
+             <SiDjango 
+              color="white"
+              size={20}
+              spacing={10}
+            />
             <SiFigma
               color="white"
               size={20}
@@ -216,6 +226,11 @@ export function Projects() {
                 color="white"
                 size={25}
                 spacing={10}
+            />
+             <SiDjango 
+              color="white"
+              size={20}
+              spacing={10}
             />
             <SiFigma
               color="white"

@@ -91,6 +91,7 @@ export const AreaProjectTech = styled.div`
    height: 20%;
    display: flex;
    align-items: center;
+   gap: 10px;
     
 `
 

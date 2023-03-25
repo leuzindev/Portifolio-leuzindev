@@ -72,6 +72,7 @@ export const AreaImgTech = styled.div`
     display: flex;
     align-items: center;
     margin-left: 30px;
+    gap: 10px;
 `
 
 export const NameProject = styled.p`

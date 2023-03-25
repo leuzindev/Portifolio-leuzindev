@@ -22,7 +22,7 @@ import lorem from "/public/images/cover_lorem.png";
 import { Titles } from "@/styles/kitUI";
 
 import { DiReact, DiPython, DiJavascript1, DiNodejs } from "react-icons/di";
-import { SiCss3, SiFigma, SiHtml5, SiPrisma, SiReact } from "react-icons/si";
+import { SiCss3, SiDjango, SiFigma, SiHtml5, SiPrisma, SiReact } from "react-icons/si";
 import {FaNodeJs} from "react-icons/fa"
 
 export function ProjectsContent() {
@@ -35,7 +35,7 @@ export function ProjectsContent() {
       <AreaTitle>
         <Titles>Projetos</Titles>
       </AreaTitle>
-      <ProjectContainer>
+      <ProjectContainer data-aos="fade-up">
         <AreaImg>
           <ProjectImg src={cine} alt="imagem do projeto" />
         </AreaImg>
@@ -53,6 +53,11 @@ export function ProjectsContent() {
                 size={30}
                 spacing={10}
             />
+            <SiDjango 
+              color="white"
+              size={20}
+              spacing={10}
+            />
             <SiFigma
               color="white"
               size={20}
@@ -60,7 +65,7 @@ export function ProjectsContent() {
             />
         </AreaProjectTech>
       </ProjectContainer>
-      <ProjectContainer>
+      <ProjectContainer data-aos="fade-up">
         <AreaImg>
           <ProjectImg src={pure} alt="imagem do projeto" />
         </AreaImg>
@@ -72,6 +77,11 @@ export function ProjectsContent() {
                 color="white"
                 size={25}
                 spacing={10}
+            />
+            <SiDjango 
+              color="white"
+              size={20}
+              spacing={10}
             />
             <DiPython 
                 color="white"
@@ -85,7 +95,7 @@ export function ProjectsContent() {
             />
         </AreaProjectTech>
       </ProjectContainer>
-      <ProjectContainer>
+      <ProjectContainer data-aos="fade-up">
         <AreaImg>
           <ProjectImg src={habits} alt="imagem do projeto" />
         </AreaImg>
@@ -102,6 +112,11 @@ export function ProjectsContent() {
                 color="white"
                 size={25}
                 spacing={10}
+            />
+            <SiDjango 
+              color="white"
+              size={20}
+              spacing={10}
             />
             <SiFigma
               color="white"
@@ -121,7 +136,7 @@ export function ProjectsContent() {
             
         </AreaProjectTech>
       </ProjectContainer>
-      <ProjectContainer>
+      <ProjectContainer data-aos="fade-up">
         <AreaImg>
           <ProjectImg src={hzc} alt="imagem do projeto" />
         </AreaImg>
@@ -146,7 +161,7 @@ export function ProjectsContent() {
             />
         </AreaProjectTech>
       </ProjectContainer>
-      <ProjectContainer>
+      <ProjectContainer data-aos="fade-up">
         <AreaImg>
           <ProjectImg src={connect} alt="imagem do projeto" />
         </AreaImg>
@@ -165,6 +180,11 @@ export function ProjectsContent() {
               size={25}
               spacing={10}
             />
+             <SiDjango 
+              color="white"
+              size={20}
+              spacing={10}
+            />
             <SiFigma
               color="white"
               size={20}
@@ -172,7 +192,7 @@ export function ProjectsContent() {
             />
         </AreaProjectTech>
       </ProjectContainer>
-      <ProjectContainer>
+      <ProjectContainer data-aos="fade-up">
         <AreaImg>
           <ProjectImg src={lorem} alt="imagem do projeto" />
         </AreaImg>
@@ -190,6 +210,7 @@ export function ProjectsContent() {
                 size={25}
                 spacing={10}
             />
+           
             <SiFigma
               color="white"
               size={20}
