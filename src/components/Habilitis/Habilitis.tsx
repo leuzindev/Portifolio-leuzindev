@@ -40,7 +40,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
 import { DiPython } from "react-icons/di";
-import { SiDocker, SiFigma, SiReact } from "react-icons/si";
+import { SiDocker, SiFigma, SiNginx, SiReact } from "react-icons/si";
 import {ImDatabase} from "react-icons/im"
 import {BsGit} from "react-icons/bs"
 
@@ -106,13 +106,16 @@ export function Habilitis() {
               </HabitsMobile></SwiperSlideContent>
             <SwiperSlideContent><HabitsMobile>
                 <AreaImgTechMobile>
-                  <BsGit size={30} color="white"/>
+                <SiNginx 
+                  color="white"
+                  size={30}
+                />
                 </AreaImgTechMobile>
                 <AreaTitleTechMobile>
-                  <TitelTechMobile>Controle de Versão Git</TitelTechMobile>
+                  <TitelTechMobile>DevOps</TitelTechMobile>
                 </AreaTitleTechMobile>
                 <AreaSubTitleTechMobile>
-                  <SubtitleMobile>Versionamento de código utilizando Github ou GitLab</SubtitleMobile>
+                  <SubtitleMobile>Deploy usando Vercel, Nginx e Gunicorn</SubtitleMobile>
                 </AreaSubTitleTechMobile>
               </HabitsMobile></SwiperSlideContent>
             <SwiperSlideContent><HabitsMobile>
@@ -187,14 +190,17 @@ export function Habilitis() {
           <ContentHabilitis>
             <HabilitisArea data-aos="fade-up" >
               <AreaTitleImg>
-                <TechImg src={git} alt="" />
+                <SiNginx 
+                  color="white"
+                  size={30}
+                />
               </AreaTitleImg>
               <AreaTitleTech>
-                <TitleTech>Controle de Versão Git</TitleTech>
+                <TitleTech>DevOps</TitleTech>
               </AreaTitleTech>
               <AreaSubTech>
                 <SubTitleTech>
-                  Versionamento de código utilizando Github ou GitLab
+                Deploy usando Vercel, Nginx e Gunicorn
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
