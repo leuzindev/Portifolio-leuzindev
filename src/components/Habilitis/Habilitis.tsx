@@ -1,48 +1,32 @@
 import {
-  AreaImgTechMobile,
   AreaSubTech,
-  AreaSubTitleTechMobile,
   AreaTitle,
   AreaTitleImg,
   AreaTitleTech,
-  AreaTitleTechMobile,
   ContainerHabilitis,
-  ContainerMobile,
   ContainerTotal,
   ContentHabilitis,
   HabilitisArea,
-  HabitsMobile,
-  SubtitleMobile,
   SubTitleTech,
-  SwiperSlideContent,
   TechImg,
-  TitelTechMobile,
   TitleTech,
 } from "./styled";
 
 import python from "/public/images/python.png";
 import react from "/public/images/react.png";
 import database from "/public/images/database.png";
-import git from "/public/images/git.png";
 import docker from "/public/images/docker.png";
 import figma from "/public/images/figma.png";
-import { LineWhite, Titles } from "@/styles/kitUI";
+import {  Titles } from "@/styles/kitUI";
 import { useEffect, useState } from "react";
-
-import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
+import { SiNginx } from "react-icons/si";
 
-
-// import required modules
-import { Pagination } from "swiper";
-import { DiPython } from "react-icons/di";
-import { SiDocker, SiFigma, SiNginx, SiReact } from "react-icons/si";
-import {ImDatabase} from "react-icons/im"
-import {BsGit} from "react-icons/bs"
+import { HabitsMobileView } from "../Mobile/HabitsMobileView";
 
 export function Habilitis() {
   const [isMobile, setIsMobile] = useState(false);
@@ -66,88 +50,11 @@ export function Habilitis() {
       </AreaTitle>
 
       {isMobile ? (
-        // código JSX para telas menores que 900px
-        <ContainerMobile>
-          <Swiper pagination={true} modules={[Pagination]} className="mySwiper" style={{ height: "100%", width: "100%" }}>
-            <SwiperSlideContent>
-              <HabitsMobile data-aos="fade-up">
-                <AreaImgTechMobile>
-                  <DiPython size={40} color="white"/>
-                </AreaImgTechMobile>
-                <AreaTitleTechMobile>
-                  <TitelTechMobile>Desenvolvimento Back End</TitelTechMobile>
-                </AreaTitleTechMobile>
-                <AreaSubTitleTechMobile>
-                  <SubtitleMobile>NodeJS, Django, Express, MySQL, SQLite, MongoDB e AJAX </SubtitleMobile>
-                </AreaSubTitleTechMobile>
-              </HabitsMobile>
-            </SwiperSlideContent>
-            <SwiperSlideContent><HabitsMobile>
-                <AreaImgTechMobile>
-                  <SiReact size={35} color="white"/>
-                </AreaImgTechMobile>
-                <AreaTitleTechMobile>
-                  <TitelTechMobile>Desenvolvimento Front End</TitelTechMobile>
-                </AreaTitleTechMobile>
-                <AreaSubTitleTechMobile>
-                  <SubtitleMobile>ReactJs, React-Native, TailwindCSS, Styled Components</SubtitleMobile>
-                </AreaSubTitleTechMobile>
-              </HabitsMobile></SwiperSlideContent>
-            <SwiperSlideContent><HabitsMobile>
-                <AreaImgTechMobile>
-                  <ImDatabase size={30} color="white"/>
-                </AreaImgTechMobile>
-                <AreaTitleTechMobile>
-                  <TitelTechMobile>Banco de Dados</TitelTechMobile>
-                </AreaTitleTechMobile>
-                <AreaSubTitleTechMobile>
-                  <SubtitleMobile>MySQL, Postgre, MongoDB, MariaDB, SQLserver</SubtitleMobile>
-                </AreaSubTitleTechMobile>
-              </HabitsMobile></SwiperSlideContent>
-            <SwiperSlideContent><HabitsMobile>
-                <AreaImgTechMobile>
-                <SiNginx 
-                  color="white"
-                  size={30}
-                />
-                </AreaImgTechMobile>
-                <AreaTitleTechMobile>
-                  <TitelTechMobile>DevOps</TitelTechMobile>
-                </AreaTitleTechMobile>
-                <AreaSubTitleTechMobile>
-                  <SubtitleMobile>Deploy usando Vercel, Nginx e Gunicorn</SubtitleMobile>
-                </AreaSubTitleTechMobile>
-              </HabitsMobile></SwiperSlideContent>
-            <SwiperSlideContent><HabitsMobile>
-                <AreaImgTechMobile>
-                  <SiDocker size={40} color="white"/>
-                </AreaImgTechMobile>
-                <AreaTitleTechMobile>
-                  <TitelTechMobile>Conteinerização</TitelTechMobile>
-                </AreaTitleTechMobile>
-                <AreaSubTitleTechMobile>
-                  <SubtitleMobile>Configuração de aplicações back end e front end em ambiente docker</SubtitleMobile>
-                </AreaSubTitleTechMobile>
-              </HabitsMobile></SwiperSlideContent>
-            <SwiperSlideContent><HabitsMobile>
-                <AreaImgTechMobile>
-                  <SiFigma size={30} color="white"/>
-                </AreaImgTechMobile>
-                <AreaTitleTechMobile>
-                  <TitelTechMobile>Design de Aplicação</TitelTechMobile>
-                </AreaTitleTechMobile>
-                <AreaSubTitleTechMobile>
-                  <SubtitleMobile>Figma, Photoshop</SubtitleMobile>
-                </AreaSubTitleTechMobile>
-              </HabitsMobile></SwiperSlideContent>
-            
-          </Swiper>
-        </ContainerMobile>
+        <HabitsMobileView />
       ) : (
         <ContainerHabilitis>
           <ContentHabilitis>
-         
-            <HabilitisArea data-aos="fade-up" >
+            <HabilitisArea data-aos="fade-up">
               <AreaTitleImg>
                 <TechImg src={python} alt="" />
               </AreaTitleImg>
@@ -160,7 +67,7 @@ export function Habilitis() {
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea data-aos="fade-up" >
+            <HabilitisArea data-aos="fade-up">
               <AreaTitleImg>
                 <TechImg src={react} alt="" />
               </AreaTitleImg>
@@ -173,7 +80,7 @@ export function Habilitis() {
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea data-aos="fade-up" >
+            <HabilitisArea data-aos="fade-up">
               <AreaTitleImg>
                 <TechImg src={database} alt="" />
               </AreaTitleImg>
@@ -188,23 +95,20 @@ export function Habilitis() {
             </HabilitisArea>
           </ContentHabilitis>
           <ContentHabilitis>
-            <HabilitisArea data-aos="fade-up" >
+            <HabilitisArea data-aos="fade-up">
               <AreaTitleImg>
-                <SiNginx 
-                  color="white"
-                  size={30}
-                />
+                <SiNginx color="white" size={30} />
               </AreaTitleImg>
               <AreaTitleTech>
                 <TitleTech>DevOps</TitleTech>
               </AreaTitleTech>
               <AreaSubTech>
                 <SubTitleTech>
-                Deploy usando Vercel, Nginx e Gunicorn
+                  Deploy usando Vercel, Nginx e Gunicorn
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea data-aos="fade-up" >
+            <HabilitisArea data-aos="fade-up">
               <AreaTitleImg>
                 <TechImg src={docker} alt="" />
               </AreaTitleImg>
@@ -218,7 +122,7 @@ export function Habilitis() {
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea data-aos="fade-up" >
+            <HabilitisArea data-aos="fade-up">
               <AreaTitleImg>
                 <TechImg src={figma} alt="" />
               </AreaTitleImg>

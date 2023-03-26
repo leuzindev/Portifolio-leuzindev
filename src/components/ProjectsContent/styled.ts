@@ -34,6 +34,7 @@ export const ProjectContainer = styled.div`
     height: 30%;
     width: 30%;
     margin: 20px;
+    transition: 1s all;
     @media screen and (max-width: 1550px) {
        margin: 10px;
     }
@@ -41,6 +42,10 @@ export const ProjectContainer = styled.div`
       margin: 5px;
     
     }
+    &:hover{
+      transition: 1s all;
+      background-color: #136578;
+   }
 
 
 `

@@ -21,7 +21,7 @@ import connect from "/public/images/cover_connect.png";
 import lorem from "/public/images/cover_lorem.png";
 import { Titles } from "@/styles/kitUI";
 
-import { DiReact, DiPython, DiJavascript1, DiNodejs } from "react-icons/di";
+import {  DiPython } from "react-icons/di";
 import { SiCss3, SiDjango, SiFigma, SiHtml5, SiPrisma, SiReact } from "react-icons/si";
 import {FaNodeJs} from "react-icons/fa"
 
@@ -37,7 +37,10 @@ export function ProjectsContent() {
       </AreaTitle>
       <ProjectContainer data-aos="fade-up">
         <AreaImg>
+        <a href="https://github.com/leuzindev/Cineflow">
+
           <ProjectImg src={cine} alt="imagem do projeto" />
+        </a>
         </AreaImg>
         <AreaProjectName>
             <TechName>CineFlow - Aplicativo de Streaming</TechName>
@@ -67,7 +70,10 @@ export function ProjectsContent() {
       </ProjectContainer>
       <ProjectContainer data-aos="fade-up">
         <AreaImg>
+        <a href="">
           <ProjectImg src={pure} alt="imagem do projeto" />
+
+        </a>
         </AreaImg>
         <AreaProjectName>
         <TechName>Pure Power - Aplicativo de academia</TechName>
@@ -97,7 +103,10 @@ export function ProjectsContent() {
       </ProjectContainer>
       <ProjectContainer data-aos="fade-up">
         <AreaImg>
+        <a href="https://github.com/leuzindev/Habits-Nlw-Frontend">
+
           <ProjectImg src={habits} alt="imagem do projeto" />
+        </a>
         </AreaImg>
         <AreaProjectName>
         <TechName>Habits - Sites e app de hábitos</TechName>
@@ -138,7 +147,10 @@ export function ProjectsContent() {
       </ProjectContainer>
       <ProjectContainer data-aos="fade-up">
         <AreaImg>
+        <a href="https://github.com/leuzindev/HZC_app">
+
           <ProjectImg src={hzc} alt="imagem do projeto" />
+        </a>
         </AreaImg>
         <AreaProjectName>
         <TechName>Hzc - Skate Board</TechName>
@@ -163,7 +175,10 @@ export function ProjectsContent() {
       </ProjectContainer>
       <ProjectContainer data-aos="fade-up">
         <AreaImg>
+        <a href="https://github.com/leuzindev/CONNECT_BANK">
+
           <ProjectImg src={connect} alt="imagem do projeto" />
+        </a>
         </AreaImg>
         <AreaProjectName>
         <TechName>Connect bank - Banco digital</TechName>
@@ -194,7 +209,10 @@ export function ProjectsContent() {
       </ProjectContainer>
       <ProjectContainer data-aos="fade-up">
         <AreaImg>
+        <a href="https://github.com/leuzindev/LOREM_BARBER">
+
           <ProjectImg src={lorem} alt="imagem do projeto" />
+        </a>
         </AreaImg>
         <AreaProjectName>
         <TechName>Lorem barber - Site barbearia</TechName>
