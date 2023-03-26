@@ -19,7 +19,7 @@ export function FooterContent(){
                     </ImgLabel>
                     <ImgLabel>
                     <Image src={phone} alt='telefone logo'/>
-                        <DesContato>(11) 992909-9966</DesContato>
+                        <DesContato>(11) 99290-9966</DesContato>
                     </ImgLabel>
                 </LeftFooter>
                 <RightFooter>
