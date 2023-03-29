@@ -8,7 +8,7 @@ export function FooterContent(){
 
 
     return(
-            <ContainerFooter>
+            <ContainerFooter id="contact">
                 <LeftFooter>
                 
                         <TitleContato>Entre em Contato</TitleContato>
