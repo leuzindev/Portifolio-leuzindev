@@ -51,6 +51,16 @@ export const Container = styled.div`
   }
 `;
 
+export const ContainerCertificates = styled.div`
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #145277, #83D0CB);
+ 
+`;
+
 
 export const LineWhite = styled.hr`
   color: white;
