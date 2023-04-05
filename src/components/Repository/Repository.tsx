@@ -206,8 +206,8 @@ export function Repository() {
         </RepoContainerMobile>
       ) : (
         <>
-        {/* data-aos="flip-up" */}
-          <AreaRespositorys  >
+       
+          <AreaRespositorys   data-aos="flip-up">
             <RepositoryRow>
               <RepositoryContainer href={repos[0]?.link}>
                 <RepositoryWhite>
