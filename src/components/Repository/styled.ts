@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Image from "next/image";
 
 export const ContainerRepositorys = styled.div`
-  height: 80%;
+  height: 75%;
   width: 100%;
   @media screen and (max-width: 1550px) {
     height: 75%;

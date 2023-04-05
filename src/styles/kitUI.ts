@@ -44,7 +44,7 @@ export const Container = styled.div`
       
     }
   @media screen and (min-width: 1921px) {
-    width: 70%;
+    width: 65%;
   }
   @media screen and (min-width: 3000px) {
     width: 40%;
