@@ -74,12 +74,9 @@ export const RepositoryWhite = styled.div`
 export const RepositoryName = styled.p`
   color: black;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 20px;
-  @media screen and (max-width: 1550px) {
-    
-    font-size: 15px;
-}
+
 `;
 
 export const AreaRepositoryDescription = styled.div`

@@ -130,7 +130,7 @@ export const AreaSubTech = styled.div`
 
 export const SubTitleTech = styled.p`
     color: white;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 400;
     @media screen and (max-width: 1550px) {
        font-size: 12px;

@@ -80,7 +80,7 @@ export const AreaImgTech = styled.div`
 export const NameProject = styled.p`
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 30px;
     @media screen and (max-width: 1550px) {
         font-size: 15px;
