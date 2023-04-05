@@ -17,6 +17,7 @@ export const AreaTitleRepository = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 15%;
+ 
   @media screen and (max-width: 1550px) {
       align-items: flex-end;
       height: 20%;
@@ -85,6 +86,7 @@ export const AreaRepositoryDescription = styled.div`
   align-items: center;
   width: 90%;
   margin: auto;
+  
 `;
 
 export const RepositoryDescription = styled.p`

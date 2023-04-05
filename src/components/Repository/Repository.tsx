@@ -1,4 +1,4 @@
-import { SeeMore, Titles } from "@/styles/kitUI";
+import { SeeMore, Titles, TitlesRepo } from "@/styles/kitUI";
 import { useEffect, useState } from "react";
 import {
   AreaRepositoryDescription,
@@ -91,7 +91,7 @@ export function Repository() {
   return (
     <ContainerRepositorys id="repos">
       <AreaTitleRepository>
-        <Titles>Repositórios</Titles>
+        <TitlesRepo>Repositórios</TitlesRepo>
         
         <SeeMore href="https://github.com/leuzindev?tab=repositories">
           Ver mais

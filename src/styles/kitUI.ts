@@ -88,6 +88,12 @@ export const Titles = styled.h1`
         font-size: 20px;
     }
 `
+export const TitlesRepo = styled(Titles)`
+  margin-top:10px;
+  @media screen and (max-width: 1550px) {
+    margin-top:0px;
+    }
+`
 
 export const SeeMore = styled.a`
     color: white;
