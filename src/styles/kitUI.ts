@@ -41,10 +41,10 @@ export const Container = styled.div`
   width: 80%;
   @media screen and (max-width: 900px) {
        width: 90%;
-      
     }
-  @media screen and (min-width: 1921px) {
+  @media screen and (min-width: 1000px) {
     width: 65%;
+    background-color: red;
   }
   @media screen and (min-width: 3000px) {
     width: 40%;
