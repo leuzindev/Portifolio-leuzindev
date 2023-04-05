@@ -51,6 +51,13 @@ export const Container = styled.div`
   }
 `;
 
+export const ContainarRepo = styled(Container)`
+  @media screen and (max-width: 1550px) {
+       height: 140vh;
+      }
+
+`
+
 export const ContainerCertificates = styled.div`
   height: 100vh;
   width: 100%;

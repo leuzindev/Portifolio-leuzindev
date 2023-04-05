@@ -1,7 +1,7 @@
 import { AboutMe } from "@/components/AboutMe/AboutMe";
 import { Social } from "@/components/Social/Social";
 import { Header } from "@/components/Header/Header";
-import { Container, Footer, InfoFooter, LineWhite, LineWhiteSpace, Sub, Tela, TelaSecond } from "@/styles/kitUI";
+import { ContainarRepo, Container, Footer, InfoFooter, LineWhite, LineWhiteSpace, Sub, Tela, TelaSecond } from "@/styles/kitUI";
 import { Habilitis } from "@/components/Habilitis/Habilitis";
 import { Projects } from "@/components/Projects/Projects";
 import { Repository } from "@/components/Repository/Repository";
@@ -35,15 +35,15 @@ export default function Home() {
         <Social/>
         <LineWhite/>
         <Habilitis />
-        <LineWhite/>
+        <LineWhite data-aos="fade-in"/>
         <Projects/>
-        <LineWhiteSpace/>
+        <LineWhiteSpace data-aos="fade-in"/>
       </Container>
     </Tela>
     <Tela>
-      <Container>
+      <ContainarRepo>
         <Repository/>
-      </Container>
+      </ContainarRepo>
       <Footer>
         <FooterContent/>
         <InfoFooter>Desenvolvido utilizando <Sub>NextsJs</Sub>, <Sub>Typescript</Sub>, <Sub>Vercel</Sub> entre outras tecnologias.</InfoFooter>

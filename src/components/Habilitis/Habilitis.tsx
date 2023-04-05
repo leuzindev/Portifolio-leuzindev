@@ -24,7 +24,9 @@ import { useEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { SiNginx } from "react-icons/si";
+import { SiNginx, SiDocker,SiFigma } from "react-icons/si";
+import { DiPython, DiReact, DiDatabase } from "react-icons/di";
+import { BiMobile } from "react-icons/bi"
 
 import { HabitsMobileView } from "../Mobile/HabitsMobileView";
 
@@ -54,50 +56,54 @@ export function Habilitis() {
       ) : (
         <ContainerHabilitis>
           <ContentHabilitis>
-            <HabilitisArea data-aos="fade-up">
+        
+            <HabilitisArea data-aos="fade-up" >
               <AreaTitleImg>
-                <TechImg src={python} alt="" />
+                <DiPython color="white"
+                 size={30}/>
               </AreaTitleImg>
               <AreaTitleTech>
                 <TitleTech>Desenvolvimento Back End</TitleTech>
               </AreaTitleTech>
               <AreaSubTech>
                 <SubTitleTech>
-                  NodeJS, Django, Express, MySQL, SQLite, MongoDB e AJAX{" "}
+                  NodeJS, Django, Express, Fastify, Flask, Nestjs, Graphql, Supabase
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea data-aos="fade-up">
+           
+            <HabilitisArea  data-aos="fade-up">
               <AreaTitleImg>
-                <TechImg src={react} alt="" />
+                <DiReact color="white"
+                 size={30}/>
               </AreaTitleImg>
               <AreaTitleTech>
                 <TitleTech>Desenvolvimento Front End</TitleTech>
               </AreaTitleTech>
               <AreaSubTech>
                 <SubTitleTech>
-                  ReactJs, React-Native, TailwindCSS, Styled Components
+                  ReactJs, Nextjs, TailwindCSS, Styled Components, Figma
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea data-aos="fade-up">
+            <HabilitisArea  data-aos="fade-up">
               <AreaTitleImg>
-                <TechImg src={database} alt="" />
+                <BiMobile color="white"
+                 size={25} />
               </AreaTitleImg>
               <AreaTitleTech>
-                <TitleTech>Banco de Dados</TitleTech>
+                <TitleTech>Mobile</TitleTech>
               </AreaTitleTech>
               <AreaSubTech>
-                <SubTitleTech>
-                  MySQL, Postgre, MongoDB, MariaDB, SQLserver
-                </SubTitleTech>
+                <SubTitleTech>Expo, React-Native, NativeWind</SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
+           
           </ContentHabilitis>
           <ContentHabilitis>
-            <HabilitisArea data-aos="fade-up">
+            <HabilitisArea  data-aos="fade-up">
               <AreaTitleImg>
-                <SiNginx color="white" size={30} />
+                <SiNginx color="white" size={25} />
               </AreaTitleImg>
               <AreaTitleTech>
                 <TitleTech>DevOps</TitleTech>
@@ -110,7 +116,8 @@ export function Habilitis() {
             </HabilitisArea>
             <HabilitisArea data-aos="fade-up">
               <AreaTitleImg>
-                <TechImg src={docker} alt="" />
+                <SiDocker color="white"
+                 size={30}/>
               </AreaTitleImg>
               <AreaTitleTech>
                 <TitleTech>Conteinerização</TitleTech>
@@ -122,17 +129,22 @@ export function Habilitis() {
                 </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
-            <HabilitisArea data-aos="fade-up">
+             <HabilitisArea data-aos="fade-up">
               <AreaTitleImg>
-                <TechImg src={figma} alt="" />
+                <DiDatabase color="white"
+                 size={30} />
               </AreaTitleImg>
               <AreaTitleTech>
-                <TitleTech>Design de Aplicação</TitleTech>
+                <TitleTech>Banco de Dados</TitleTech>
               </AreaTitleTech>
               <AreaSubTech>
-                <SubTitleTech>Figma, Photoshop</SubTitleTech>
+                <SubTitleTech>
+                  MySQL, Postgre, MongoDB, MariaDB, SQLserver
+                </SubTitleTech>
               </AreaSubTech>
             </HabilitisArea>
+
+
           </ContentHabilitis>
         </ContainerHabilitis>
       )}

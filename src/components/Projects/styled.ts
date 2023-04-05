@@ -64,6 +64,7 @@ export const AreaNameTech = styled.div`
     height: 20%;
     display: flex;
     align-items: center;
+  
 `
 
 export const AreaImgTech = styled.div`
@@ -73,6 +74,7 @@ export const AreaImgTech = styled.div`
     align-items: center;
     margin-left: 30px;
     gap: 10px;
+  
 `
 
 export const NameProject = styled.p`
@@ -89,6 +91,7 @@ export const ProjectImg = styled(Image)`
     object-fit: cover;
     width: 100%;
     height: 100%;
+    object-position: center 20%;
   
 `
 

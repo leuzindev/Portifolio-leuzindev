@@ -11,7 +11,7 @@ export const ContainerTotal = styled.div`
     justify-content: center;
     @media screen and (max-width: 1550px) {
  
-       height: 45%;
+       height: 50%;
     }
 `
 
@@ -39,7 +39,7 @@ export const ContainerHabilitis = styled.div`
     flex-direction: column;
     @media screen and (max-width: 1550px) {
        height:  100%;
-  
+       margin-bottom: 10px;
     }
     
     

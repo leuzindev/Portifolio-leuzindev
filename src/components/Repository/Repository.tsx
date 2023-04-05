@@ -206,7 +206,8 @@ export function Repository() {
         </RepoContainerMobile>
       ) : (
         <>
-          <AreaRespositorys data-aos="flip-up">
+      
+          <AreaRespositorys  data-aos="flip-up">
             <RepositoryRow>
               <RepositoryContainer href={repos[0]?.link}>
                 <RepositoryWhite>
@@ -313,9 +314,9 @@ export function Repository() {
       )}
 
       <GithubBar>
-      
-        <GithubImgBar src={bar} alt="barra do github"  data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"/>
+      {/* data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom" */}
+        <GithubImgBar src={bar} alt="barra do github"  />
       </GithubBar>
     </ContainerRepositorys>
   );

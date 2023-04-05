@@ -5,13 +5,21 @@ export const ContainerRepositorys = styled.div`
   height: 60%;
   width: 100%;
   
+  
 `;
+
+
 
 export const AreaTitleRepository = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 15%;
+  @media screen and (max-width: 1550px) {
+      align-items: flex-end;
+      height: 20%;
+      margin-bottom: 10px;
+  }
 
   
 `;
@@ -26,6 +34,7 @@ export const AreaRespositorys = styled.div`
       
         height: 80%;
     }
+    
 `;
 
 export const RepositoryContainer = styled.a`
@@ -38,6 +47,7 @@ export const RepositoryContainer = styled.a`
     transition: 1s all;
     background-color: #11677A;
   }
+
 `;
 export const RepositoryRow = styled.div`
   height: 50%;
@@ -111,7 +121,7 @@ export const GithubImgBar = styled(Image)`
   width: 116%;
   height: 116%;
   @media screen and (max-width: 1550px) {
-    object-fit: none;
+    object-fit: contain;
     width: 100%;
     height: 100%;
 }

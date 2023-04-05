@@ -30,7 +30,7 @@ export function AboutMe() {
                     <Subtitle>ReactNative entre outras linguagens e frameworks. Espero que goste</Subtitle>
                 </AreaSub>     
                 <AreaCV>
-                    <ButtonCv  href="https://drive.google.com/uc?id=1raH1Ybl9DqeMf9Sl28gWecj2vr-0LUys&export=download">View CV</ButtonCv>
+                    <ButtonCv  href="https://drive.google.com/u/1/uc?id=1vNVQ8eKQObxLbN27BPDY6D8UPzBD0ZLr&export=download">View CV</ButtonCv>
                     
                 </AreaCV>             
             </LeftCard>
