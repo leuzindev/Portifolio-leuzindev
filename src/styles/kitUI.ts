@@ -44,7 +44,7 @@ export const Container = styled.div`
     }
   @media screen and (min-width: 1000px) {
     width: 65%;
-    background-color: red;
+   
   }
   @media screen and (min-width: 3000px) {
     width: 40%;
@@ -83,6 +83,7 @@ export const LineWhiteSpace = styled(LineWhite)`
 export const Titles = styled.h1`
     color: white;
     font-weight: bold;
+    font-size: 30px;
      @media screen and (max-width: 1550px) {
         font-size: 20px;
     }
